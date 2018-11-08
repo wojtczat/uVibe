@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uvibe.uvibe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Analyzing"
+            android:label="@string/title_activity_analyzing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Error"
+            android:label="@string/title_activity_error"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Analysis"
+            android:label="@string/title_activity_analysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecommendedSongs"
+            android:label="@string/title_activity_recommended_songs"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

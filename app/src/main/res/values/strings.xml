@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">uVibe</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_analyzing">Analyzing</string>
+    <string name="title_activity_error">Error</string>
+    <string name="title_activity_analysis">Analysis</string>
+    <string name="title_activity_recommended_songs">RecommendedSongs</string>
+</resources>

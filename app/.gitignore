@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+/build
+
+# Built application files
+*.apk
+*.ap_
+
+# Local config
+local.properties
+
+# Java class files
+*.class
+
+# Generated Files
+bin/
+gen/
+out/
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio and IntelliJ
+*.iml
+.idea
+.idea/workspace.xml
+.idea/libraries
